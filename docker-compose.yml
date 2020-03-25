@@ -1,0 +1,7 @@
+version: '2'
+services:
+  speex-for-android:
+    build: .
+    image: speex-for-android-arm64-v8a
+    volumes:
+      - ./build:/build
